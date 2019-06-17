@@ -6,8 +6,9 @@ Vous trouverez ici des documents liés à votre formation
 A LIRE OBLIGATOIREMENT
 -----------------------
 
-
 - Parcours.md 
+- REAC_DWWM_V03_03052018.pdf
+- Les cours (à venir)
 
 
 LES COMPETENCES QUE TU VAS OBTENIR
