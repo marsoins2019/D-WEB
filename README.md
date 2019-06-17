@@ -19,11 +19,18 @@ A LIRE OBLIGATOIREMENT
 LES COMPETENCES QUE TU VAS OBTENIR
 -----------------------------------
 
+1. Développer la partie front-end d'une application web ou web mobile en intégrant les recommandations de sécurité
+-------------------------------------------------------------------------------------------------------------------
+
 - Competence-1.md - Maquetter une application
 - Competence-2.md - Réaliser une interface utilisateur web statique et adaptable
 - Competence-3.md - Développer une interface utilisateur web dynamique
 - Competence-4.md - Réaliser une interface utilisateur avec une solution de gestion de contenu ou e- commerce
 - Competence-5.md - Créer une base de données
+
+2. Développer la partie back-end d'une application web ou web mobile en intégrant les recommandations de sécurité
+------------------------------------------------------------------------------------------------------------------
+
 - Competence-6.md - Développer les composants d’accès aux données
 - Competence-7.md - Développer la partie back-end d’une application web ou web mobile
 - Competence-8.md - Elaborer et mettre en œuvre des composants dans une application de gestion de contenu ou e-commerce
