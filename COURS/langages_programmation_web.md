@@ -43,13 +43,31 @@ Ce langage va nous permettre de créer de simple page à une application web mé
 C'est aussi un langage objet qui utilise simplement des objets jusqu'à l'usage de framework PHP.
 **Laravel, CakePHP, Symfony, Zend Framework, CodeIgniter, FuelPHP, etc..**
 
-*
+* **SQL ( Structured Query Language )**, langage de programmation pour les bases de données. Un langage du type 'Query' (question). En effet, ce langage serveur sert uniquement à répondre à des instructions de type (SELECT, INSERT, UPDATE, DELETE), mais aussi (DROP, CREATE, MERGE, ALTER, ...) pour renvoyer au serveur PHP un résultat de requête qui ensuite est mise en forme et affichée dans le navigateur.
 
-## Pour réaliser d'application mobile ?
+
+
+## Pour réaliser d'application mobile native ?
 -------------------------------------
 
+Pour la réalisation d'application mobile native, différents langages interviennent. Il faut avant de se lancer bien comprendre qu'il faut avoir la maitrise d'un langage de programmation par système d'exploitation.
 
+**Pour les mobiles nous avons :**
 
+* IOS (pour les iphones)
+* Android (pour les mobiles non propriétaire)
+* Windows
+* Tizen (Linux Foundation) 
+* Linux (Linux Foundation) 
+* BlackBerry OS de BlackBerry 
+
+**Pour les langages suivants dans l'ordre  :**
+
+* Swift et Objective C 
+* Java et Kotlin 
+* C# (se dit “C sharp”) 
+* ----
+* Adobe AIR ,  C/C++, Java
 
 
 
