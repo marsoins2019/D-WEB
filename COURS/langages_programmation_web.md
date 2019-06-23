@@ -66,7 +66,7 @@ Pour la réalisation d'application mobile native, différents langages intervien
 * Swift et Objective C 
 * Java et Kotlin 
 * C# (se dit “C sharp”) 
-* ----
+* - - - - -
 * Adobe AIR ,  C/C++, Java
 
 
