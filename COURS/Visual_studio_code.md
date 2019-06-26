@@ -72,6 +72,15 @@ Une fois les extensions installées, lorsque l'on utilisera un langage comme par
 pour une méthode.
 
 
+## Intégration du Terminal
+---------------------------
+Avec la commande suivante : 'Ctrl'+'Shift'+'P', vous allez ouvrir la Palette de Commandes. Sélectionnez ensuite 'Afficher : Activer/Désactiver le Terminal intégrée'.
+Le terminal ouvrira une fênetre en bas de page. Vous serez positionez dans votre répertoire de travail local 'Documents'.
+
+
+
+
+
 
 
 
