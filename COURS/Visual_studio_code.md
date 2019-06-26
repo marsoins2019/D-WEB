@@ -77,6 +77,9 @@ pour une méthode.
 Avec la commande suivante : 'Ctrl'+'Shift'+'P', vous allez ouvrir la Palette de Commandes. Sélectionnez ensuite 'Afficher : Activer/Désactiver le Terminal intégrée'.
 Le terminal ouvrira une fênetre en bas de page. Vous serez positionez dans votre répertoire de travail local 'Documents'.
 
+Il est possible d'oubrir dans le même lieu, une autre fenêtre de Terminal. Cela pourras vers permettre de réaliser différentes actions en ligne de commande.
+
+Vous aurez une liste déroulante pour la sélection d'une fenêtre Terminal en particuler. Utiliser la même méthode de séléction pour fermer une fenêtre de Terminal et cliquer sur l'icône 'corbeille'/'poubelle'.
 
 
 
