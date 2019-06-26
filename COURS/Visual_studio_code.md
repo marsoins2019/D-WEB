@@ -65,11 +65,20 @@ extensions pour les langages suivantes :
 - MYSQL
 
 
+
 ## Aide à la saisie
 --------------------
 
 Une fois les extensions installées, lorsque l'on utilisera un langage comme par exemple PHP, l'éditeur nous indiquera les modalités de syntaxe
 pour une méthode.
+
+
+L'autocompletion dans les différents langage s'effectue grâce au à ce plugin 'Emmet'. C'est un outil qui va vous permette de gagner du temps lors de votre saisie de balise par exemple.
+
+
+
+
+
 
 
 ## Intégration du Terminal
