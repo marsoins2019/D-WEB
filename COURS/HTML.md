@@ -3,7 +3,7 @@
 
 HTML (HyperText Markup Language), langage de balisage pour représenter des pages web. C'est de l'écrire **HYPERTEXTE**.
 
-Les balises (tags), permettent de mettre en forme un document texte respectant une hiérargie. Une balise est identifiée par des chevrons "'< >'".
+Les balises (en anglais --> tags), permettent de mettre en forme un document texte respectant une hiérargie. Une balise est identifiée par des chevrons "'< >'".
 Pour la majorité des cas, pour la défintion d'un document nous aurons une balise ouvrante "< >" et une balise fermante "</ >" qui encadre différent
 type de contenu.
 
@@ -37,12 +37,12 @@ Il va vous arriver quelques fois de rencontrer la défintion pour la version 4 d
 Je vous renvoi sur cette article qui vous explique en détaille.
 [Les DTD HTML4.01, XHTML1.0 et HTML5 : quel doctype choisir ?](https://www.alsacreations.com/article/lire/560-dtd-doctype-html-xhtml-comment-choisir.html)
 
-### <html>
+### `<html>`
 Informe à votre navigateur le type de langage définit dans la page web. C'est une balise qui englobe l'ensemble du document texte.
 Elle se place directement après la balise "<!DOCTYPE html>
 
 
-### <head>
+### `<head>`
 Va contenir tous les éléments de définition dans l'entête d'un document html. Voici la liste des balises que l'on trouvent dans cette section.
 
 #### <title>
