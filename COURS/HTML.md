@@ -209,4 +209,8 @@ Permet de mettre en avant un type d'information pour le tableau. Par exemple une
 Pour l'essentiel avec l'ensemble des balises de ce document vous avez un bon début d'une page HTML.
 Vous avez bien sûr beaucoup plus de balise. A vous de les découvrir.
 
+Voici une très bonne source pour en savoir plus :
+- https://developer.mozilla.org/fr/docs/Web/HTML/Element
+
+
 
