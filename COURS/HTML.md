@@ -21,7 +21,7 @@ Les contenus sont :
  	` "<html> </html>" , "<head> </head>", "<body> </body>", "<!DOCTYPE html>"
 
 
-A quoi servent elle ?
+**A quoi servent elle ?**
 
 ### <!DOCTYPE html>
 Défini le type de langage et sa version. Actuellement nous sommes à la version 5 du langage HTML.
@@ -76,10 +76,90 @@ Il y a beaucoup de référence sur internet pour vous en dire plus sur le sujet.
 
 
 
+###  `<body>`
 
 
 
-## 
+####  `<div>`
+
+
+####  `<h1>`
+
+
+####  `<h2> à <h6>`
+
+
+####  `<p>`
+
+
+###  `<img>`
+
+
+###  `<a>`
+
+
+####  `<ul>`
+
+
+####  `<ol>`
+
+
+#####  `<li>`
+
+
+####  `<table>`
+
+
+#####  `<th>`
+
+#####  `<tr>`
+
+#####  `<td>`
+
+
+####  `<form>`
+
+
+#####  `<input>`
+
+
+
+#####  `<select>`
+
+
+#####  `<textarea>`
+
+
+
+## Nouvelles balise HTML5
+
+
+###  `<nav>`
+
+
+###  `<section>`
+
+
+###  `<article>`
+
+
+###  `<canva>`
+
+
+###  `<video>`
+
+
+## Pour les tableaux
+
+A l'intérieur des balises "<table>  </table>"
+
+###  `<thead>`
+
+
+###  `<tbody>`
+
+
+###  `<tfoot>`
 
 
 
