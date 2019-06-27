@@ -39,17 +39,17 @@ Je vous renvoi sur cette article qui vous explique en détaille.
 
 ### `<html>`
 Informe à votre navigateur le type de langage définit dans la page web. C'est une balise qui englobe l'ensemble du document texte.
-Elle se place directement après la balise "<!DOCTYPE html>
+Elle se place directement après la balise "`<!DOCTYPE html>`"
 
 
 ### `<head>`
 Va contenir tous les éléments de définition dans l'entête d'un document html. Voici la liste des balises que l'on trouvent dans cette section.
 
-#### <title>
+#### `<title>`
 Une balise "<title> </title>" qui va permettre l'affichage du titre de page. 
 
-#### <meta />
-Il y à aussi un ensemble de balise "<meta />". Balise auto-fermente pour indiquer différents type de contenu.
+#### `<meta />`
+Il y à aussi un ensemble de balise "`<meta />`". Balise auto-fermente pour indiquer différents type de contenu.
 Cette balise contient des attributs de définition, attributs 'name' (nom) **ou** 'http-equiv' et 'content' (contenu, valeur).
 Chacun des attributs ont des fonctions bien précise.
 
@@ -59,7 +59,7 @@ Chacun des attributs ont des fonctions bien précise.
 - Autorise tous les robots d'indexation :`<meta name="robots" content="all">`
 - ...
 
-##### attributs particuliers
+##### Attributs particuliers
 - indique le type de contenu et son type d'encodage : `<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />`
 
 **ENCODAGE**
