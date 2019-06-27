@@ -12,7 +12,7 @@ Les contenus sont :
 - des images
 - de tableaux
 - de formulaires
-- 
+
 
 
 ## Balises principales
@@ -39,7 +39,7 @@ Je vous renvoi sur cette article qui vous explique en détaille.
 
 ### `<html>`
 Informe à votre navigateur le type de langage définit dans la page web. C'est une balise qui englobe l'ensemble du document texte.
-Elle se place directement après la balise "`<!DOCTYPE html>`"
+Elle se place directement après la balise "`<!DOCTYPE html>`". Elle va contenir toutes les autres balises d'une page HTML identifié par bloc.
 
 
 ### `<head>`
@@ -77,57 +77,100 @@ Il y a beaucoup de référence sur internet pour vous en dire plus sur le sujet.
 
 
 ###  `<body>`
-
+Balise qui englobe de contenu principale d'une page HTML. On va y retrouver les balises de typage de contenu.
 
 
 ####  `<div>`
+Cette balise permet de définir des sections de contenu. Elle va permettre facilement de la mise en forme de style.
 
 
 ####  `<h1>`
+Balise de titre principale. Elle ne peut être présente qu'une seule fois par page.
 
 
 ####  `<h2> à <h6>`
+Balise de sous-titrage de différente taille. Permet par exemple la mise en place d'un sommaire en HTML.
 
 
 ####  `<p>`
+Balise de paragrahe. Cette balise crée automatiquement un espace de avant et après elle. C'est une balise de type bloc.
+Cela aura son importance dans la mise en forme de style de votre contenu.
 
 
 ###  `<img>`
+Cette balise permet d'afficher une image dans votre page HTML. Cette balise contient des attributs divers.
+- pour récupérer la source de l'image  : **src="CHEMIN DE L'IMAGE"**
+- pour afficher le titre de l'image (très important d'une part pour identifier l'image en texte mais aussi très importante pour les logiciels d'assistance pour les non-voyants) : **alt="NOM DE L'IMAGE"**
+
+- mettre une bordure autour de l'image : **BORDER="1"** (0 pas de bordure)
+- de position : **ALIGN="top"** (top 'haut', middele 'au millieu', bottom 'en bas', etc..)
 
 
 ###  `<a>`
+Cette balise affiche un lien hypertexte qui permet de charger une autre page, une image, un fichier.
+elle conttient des attributs.
+- pour indiquer une chemin de destination : **href="URL DE DESTINATION"**
+- pour indiquer le titre du lien : **title="TITRE DU LIEN"**
+Par défaut le lien hypertexte est de couleur bleu. Si vous avez déjà cliqué dessus, il sera de couleur mauve ou violet et rouge si vous restez cliqué dessus.
+
+####  `<ul> (Unordered list)`
+Balise qui permet la mise en place d'une liste non-ordonnée. C'est une balise qui encadre une autre balise `<li>`.
+Par défaut cette balise affiche un petit cercle.
 
 
-####  `<ul>`
+####  `<ol> Ordered Lists`
+Balise qui permet la mise en place d'une liste ordonnée. C'est une balise qui encadre une autre balise `<li>`.
+Par défaut cette balise affiche un petit cercle.
 
-
-####  `<ol>`
-
-
-#####  `<li>`
+#####  `<li> List Items`
+Cette balise, permet de lister les différents éléments d'une liste ordonnée ou non ordonnée.
 
 
 ####  `<table>`
+Balise qui permet la mise en place d'un tableau. C'est une balise qui englobe des balises de lignes et des colonnes.
+La ligne est identifiée par la balise `<tr>` et la colonne par la balise `<td>`.
+Il y a aussi une balise d'entête de tableau `<th>`
 
 
 #####  `<th>`
+Balise qui se trouve à l'intérieur de la balise `<table>`. Elle permet d'identifier l'entête de tableau pour y placer les différents titre de colonne.
 
 #####  `<tr>`
+Balise pour indiquer une ligne de tableau. Elle se place après la balise fermente `</th>`.
+Elle se répète autant de fois que nécessaire.
 
 #####  `<td>`
+Balise pour indiquer une colonne. Elle se place à l'intérieur de la balise `<tr>`.
 
 
 ####  `<form>`
+Balise qui permet de placer un formulaire de saisie. Elle englobe d'autre balise pour mettre en place les différents champs de saisie, de liste et de bouton de validation.
 
 
 #####  `<input>`
-
+Balise qui permet de mettre en place un type de champs pour le formulaire. Cette balise contient un attribut de typage.
+- type texte
+- type caché
+- type bouton
+- type fichier
+- ...
 
 
 #####  `<select>`
+Balise pour définir dans une formulaire une liste d'option. Justement pour définir une option cela sera avec la balise `<option>`
+
+
+##### `<option>`
+Balise qui se place à l'intérieur de la balise `<select>`. Elle permet de mette une place une liste de référence. Cette balise contient un attribut.
+- value="NOMDEL'OPTION"
 
 
 #####  `<textarea>`
+Balise qui permet une emplacement de saisie à plusieurs lignes. C'est une balise de bloc de texte. Cette balise contient des attributs:
+- name="NOMDUBLOCDESAISIE"
+- rows="2" : nombre de lignes
+- cols="5" : nombre de colonne
+Les attributs **rows** et **cols** vont permettre de créer un espace visuel plus ou moins important.
 
 
 
@@ -135,18 +178,16 @@ Il y a beaucoup de référence sur internet pour vous en dire plus sur le sujet.
 
 
 ###  `<nav>`
+Englobe les balises `<ul> (Unordered list)` et `<li> List Items` pour mettre en place un bloc de menu.
 
 
 ###  `<section>`
+Permet comme pour la balise `<div>` de définir une bloc de contenu. Celui-ci va permettre visuellement le regroupement d'une même information.
 
 
 ###  `<article>`
+Permet de définir un bloc de contenu typé comme pour indiquer un produit par exemple tout comme la balise `<section>` cela permet l'identification d'un certain type de contenu.
 
-
-###  `<canva>`
-
-
-###  `<video>`
 
 
 ## Pour les tableaux
@@ -154,22 +195,18 @@ Il y a beaucoup de référence sur internet pour vous en dire plus sur le sujet.
 A l'intérieur des balises `"<table>  </table>"`
 
 ###  `<thead>`
+Entête de tableau qui englobe la balise `<th>`. Permet une meilleur identification de l'entête de tableau mais aussi une mise en forme de style particulière.
 
 
 ###  `<tbody>`
+Engloble de manière pour visuel le contenu des colonnes et lignes d'une tableau.
 
 
 ###  `<tfoot>`
+Permet de mettre en avant un type d'information pour le tableau. Par exemple une ligne de comptage.
 
 
-
-
-
-
-
-
-
-
-
+Pour l'essentiel avec l'ensemble des balises de ce document vous avez un bon début d'une page HTML.
+Vous avez bien sûr beaucoup plus de balise. A vous de les découvrir.
 
 
