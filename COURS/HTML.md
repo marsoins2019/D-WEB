@@ -151,7 +151,7 @@ Il y a beaucoup de référence sur internet pour vous en dire plus sur le sujet.
 
 ## Pour les tableaux
 
-A l'intérieur des balises "<table>  </table>"
+A l'intérieur des balises `"<table>  </table>"`
 
 ###  `<thead>`
 
