@@ -60,20 +60,21 @@ Chacun des attributs ont des fonctions bien précise.
 - ...
 
 ##### Attributs particuliers
+- indique la version du langage : `<metha http-equiv="Content-Language" content="fr">`
+- très peu utilisé, permet de rafraichir une page : `<meta http-equiv="Refresh" content="10; URL=https://www.xxx.com">`
+- très pratique dans la cas d'une page de contenu variable : `<meta http-equiv="Pragma" content="no-cache">`
 - indique le type de contenu et son type d'encodage : `<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />`
 
 **ENCODAGE**
 L'encodage permet d'identifier le type de caractères utilisés dans une page html. Les différents types d'encodage sont aussi définit dans les paramètres des navigateurs. L'encodage passe par 2 étapes, l'encodage serveur (le générateur de page) et l'encodage client (le navigateur)
 
-Les 2 types d'encodage les plus utilisés pour la création de page web :
-- ISO-8859-1 appelé 'Latin 1' permet la lecture de l'alphabet latin avec les différents accents et caractère spéciaux (é,è,à,â,û,ç,&,#, ...)
-- UTF-8 encodage **unicode** permet de lire tous les types de caractères quelques soit la langue. Cela donnera par exemple ceci pour les accents et caractères spéciaux ("&eacute;", "&egrave;", "&agrave;","&acirc;","&ucirc;","&ccedil;",...)
+Les 2 types d'encodage les plus utilisés pour la création de page web sont :
+- **ISO-8859-1**appelé 'Latin 1' permet la lecture de l'alphabet latin avec les différents accents et caractère spéciaux (é,è,à,â,û,ç,&,#, ...)
+- **UTF-8** encodage **unicode** permet de lire tous les types de caractères quelques soit la langue. Cela donnera par exemple ceci pour les accents et caractères spéciaux ("&eacute ;", "&egrave ;", "&agrave ;","&acirc ;","&ucirc ;","&ccedil ;",...)
 
 Il y a beaucoup de référence sur internet pour vous en dire plus sur le sujet.
 
-- indique la version du langage : `<metha http-equiv="Content-Language" content="fr">`
-- très peu utilisé, permet de rafraichir une page : `<meta http-equiv="Refresh" content="10; URL=https://www.xxx.com">`
-- très pratique dans la cas d'une page de contenu variable : `<meta http-equiv="Pragma" content="no-cache">`
+
 
 
 
