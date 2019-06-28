@@ -18,7 +18,7 @@ Les contenus sont :
 ## Balises principales
 ----------------------
 
- 	` "<html> </html>" , "<head> </head>", "<body> </body>", "<!DOCTYPE html>"
+ 	` "<html> </html>" , "<head> </head>", "<body> </body>", "<!DOCTYPE html>", "<!-- le commentaire   -->"`
 
 
 **A quoi servent elle ?**
@@ -75,6 +75,8 @@ Les 2 types d'encodage les plus utilisés pour la création de page web sont :
 Il y a beaucoup de référence sur internet pour vous en dire plus sur le sujet.
 
 
+###  `<!-- le commentaire   -->`
+Cette balise parle d'elle même, c'est la balise de commentaire. En HTLM, il est souvent posé des commentaires indiquer des informations. Cela peut être un bloc de plusieurs lignes mais c'est très rare. Il n'est pas interprété par le navigateur.
 
 ###  `<body>`
 Balise qui englobe de contenu principale d'une page HTML. On va y retrouver les balises de typage de contenu.
@@ -211,6 +213,16 @@ Vous avez bien sûr beaucoup plus de balise. A vous de les découvrir.
 
 Voici une très bonne source pour en savoir plus :
 - https://developer.mozilla.org/fr/docs/Web/HTML/Element
+
+
+# W3c World Wide Web Consortium
+est un organisme de standardisation à but non lucratif, fondé en octobre 1994 chargé de promouvoir la compatibilité des technologies du World Wide Web telles que HTML5, HTML, XHTML, XML, RDF, SPARQL, CSS, XSL, PNG, SVG et SOAP. ** source Wikipédia**
+C'est du W3c que le mot **sémantique** a été mise en avant pour le web.
+
+Vous pourrez vous rendre sur le site w3c.org qui mets à jour régulièrement les nouvelles normes concernant le langage HTML.
+- https://www.w3.org/standards/semanticweb/ (site en anglais)
+
+
 
 
 
