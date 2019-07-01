@@ -1,0 +1,28 @@
+Création d'un site vitrine de chaussures.
+
+
+
+Maintenant que vous maîtrisez les bases de HTML et CSS vous allez créer un site vitrine pour un magasin de chaussures.
+
+Créer le dossier suivant à la racine de votre serveur web : chausseurs.com
+
+Le site doit contenir les pages suivantes :
+
+Pages : 
+- index.html
+- contact.html
+- qui-sommes-nous.html
+- nos-chaussures.html
+- style.css
+
+logo texte du site  : CHAUSSEURS.COM
+
+
+Pour les images vous pouvez les chercher sur internet utiliser les urls de ces images (NE PAS IMPORTER LES IMAGES DANS VOTRE DOSSIER)
+Mettre les liens aux différents pages.
+
+Pour le texte, utilisez des descriptions correspondant à vos images ou bien générer du lorem ipsum (https://fr.lipsum.com/). Visual Studio Code mets un plugin à voir.
+Vous êtes libre de choisir les couleurs du site pour les titres, textes, etc.
+
+
+
