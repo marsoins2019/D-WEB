@@ -1,0 +1,22 @@
+https://fontawesome.com/icons?d=gallery
+
+
+https://www.fontsquirrel.com/fonts/poppins
+- light
+- regular
+- semi-bold
+
+
+https://www.fontsquirrel.com/fonts/pt-serif
+- bold
+
+
+https://www.fontsquirrel.com/fonts/raleway
+- medium
+
+
+
+Attention Logo texte contient 2 fonts
+- poppins regular
+- pt-serif bold
+
