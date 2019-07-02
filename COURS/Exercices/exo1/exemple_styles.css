@@ -9,6 +9,81 @@
   --border-radius: 6px;
   --speed-animation: .4s;
 }
+
+/*
+autre méthode de style basique sans définition et variable
+
+body {
+  font: 400 1.6rem/1.4 'Lato', sans-serif;
+  color: #333333;
+}
+a {
+  text-decoration: none;
+  color: rgb(243, 156, 18);
+}
+body > header,
+body > footer {
+  background-color: rgb(20, 60, 80);
+  color: white;
+}
+body > header a,
+body > footer a {
+  color: white;
+}
+
+
+header h1 {
+  border-top: 6px solid rgb(243, 156, 18);
+  padding-top: 40px;
+  margin: 0;
+}
+
+nav h3 {
+  color: rgb(243, 156, 18);
+  text-align: right;
+  text-transform: inherit;
+  font-size: 2.1rem;
+}
+
+.lead h2 {
+  font-size: 3.6rem;
+  margin: 0;
+  color: rgb(243, 156, 18);
+}
+
+.btn {
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  transition: all .4s ease;
+}
+.btn:hover {
+  background: white;
+  color: var(--dark-color);
+}
+
+.btn:hover {
+  background: white;
+  color: rgb(20, 60, 80);
+}
+
+main article img {
+  border-radius: 6px;
+}
+
+footer p  {
+  color: rgb(243, 156, 18);
+}
+
+
+*/
+
+
+
+
 html { font-size: 62.5%; } /* Pour ramener la taille de police par défaut à 10 et faciliter la conversion des rem */
 img  { max-width: 100%; } /* Pour permettre aux images d'être responsive */
 *    { box-sizing: border-box; } /* Pour englober les padding et border dans la dimension des boites */
