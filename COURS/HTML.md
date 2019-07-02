@@ -207,6 +207,25 @@ Engloble de manière pour visuel le contenu des colonnes et lignes d'une tableau
 ###  `<tfoot>`
 Permet de mettre en avant un type d'information pour le tableau. Par exemple une ligne de comptage.
 
+# Balise d'une page HTML vierge
+-------------------------------
+
+` 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    .....
+    .......
+</body>
+</html>
+` 
+
 
 Pour l'essentiel avec l'ensemble des balises de ce document vous avez un bon début d'une page HTML.
 Vous avez bien sûr beaucoup plus de balise. A vous de les découvrir.
