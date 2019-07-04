@@ -16,7 +16,7 @@ Cette dernière sera la plus utilisée sauf dans le cadre d'une mise en forme po
 ATTENTION : Pour une newsletter, il n'est pas possible d'utiliser les mises en forme de type :
 - position,
 - flex.
-Seule la mise en forme avec les balises de <table><tr><td>contenu</td></tr></table>
+Seule la mise en forme avec les balises de ` <table><tr><td>contenu</td></tr></table>` 
 
 
 
