@@ -20,3 +20,15 @@ Seule la mise en forme avec les balises de ` <table><tr><td>contenu</td></tr></t
 
 
 
+
+
+
+
+
+
+**Site de référence pour vous aider en Français et en Anglais : **
+- https://developer.mozilla.org/fr/docs/Web/CSS
+- https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605060-mettez-en-place-le-css
+- https://www.w3.org/Style/Examples/011/firstcss
+- https://www.w3schools.com/cssref/default.asp
+- http://css.mammouthland.net/
