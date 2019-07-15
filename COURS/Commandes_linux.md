@@ -50,6 +50,21 @@ S'assurer que le dossier de destination existe. Sinon le créer.
 - sudo mv page1.html contact.html
 
 
+### Supprimer un dossier et un fichier
+- sudo rm nomdufichier autre fichier
+- sudo rm -R nomdudossier autrenomdufichier nomdufichier
+
+
+### Lister les fichiers
+- se placer dans un dossier
+- ls -s
+
+- ls -l
+
+#### Afficher les fichiers et dossiers cachés
+- ls -a
+
+
 
 
 
