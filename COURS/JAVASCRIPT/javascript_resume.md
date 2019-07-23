@@ -6,6 +6,7 @@ Pour s'aider lors de la saisie d'information dans un fichier js, il est importan
 - /* le commentaire de type bloc */, il suffit de passer à la ligne suivante pour écrire une autre ligne de commentaire.
 - // le commentaire de type ligne, cela permet de mettre une seule ligne en commentaire
 
+
 ## Fenêtre modale
 
 La première fenêtre modale pour afficher un contenu javascript est activée grâce à la fonction alert(); Cette méthode javascript peut contenir du texte, des nombres, des fonctions, etc.
@@ -32,7 +33,6 @@ Faisons un test dans la console.
 
 ### Une addition
 console.log(20+250);   // ATTENTION, pour afficher des chiffres il ne faut pas mettre des guillemets.
-
 
 ### Une soustraction
 console.log(1258 - 456);   // ATTENTION, pour afficher des chiffres il ne faut pas mettre des guillemets.
@@ -85,7 +85,7 @@ Pour déclarer maintenant une variable il faut utiliser la méthode suivante :
 
 Une nouvelle méthode pour la déclaration de variable à fait son apparition, c'est la méthode "const", qui permet de déclarer une variable de type constante.
 
-Cela veut dire, que la variable NE PEUT PAS changer son contenu. Elle se déclare de la mamière suivante:
+Cela veut dire, que la variable NE PEUT PAS CHANGER son contenu. Elle se déclare de la mamière suivante:
 - const nomVariable;
 - const nomAutreVariable;
 - const nom_variable;
