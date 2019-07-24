@@ -127,44 +127,30 @@ document.getElementById("submit").addEventListener("click", function(event){
 
 function calculer(quantites, prix)
 {
-    
+
     let nbrQ = quantites.length;
+    let totals = document.getElementsByClassName("total"); // 8
+    let subTotal = [];
+
+     // exemple de resultat a atteindre
+  /*  subTotal = (quantites[0] * prix[0]) + (quantites[1] * prix[1]);
+    totals[5].innerHTML = subTotal; */
+
+
     for(let i=0; i < nbrQ; i++)
     {
-        console.log(quantites[i]);
+        //totals[1].innerHTML = quantites[i] * prix[i];
+        for(let t =0; t < nbrQ; t++)
+        {
+            // i et t
+            if( i === t)
+            {
+                totals[t].innerHTML = quantites[i] * prix[i];
+
+            }
+            
+        }        
     }
-
-    
-    
-
-
-
-
-
-
-
-    // calculer ma facture
-    //alert(quantites.value * prix.value);
-
-    // afficher dans totalLine
-    //let totals = document.getElementsByClassName("total");  // collection => tableau
-     
-    // compter le nbr element dans le tableau
-    // permet de recuperer les index
-    //let compteTotal = totals.length;  // affiche 8
-
-
-    // test pour calculer et afficher UN total
-    //let afficheTotal = quantites.value * prix.value;
-
-    // récupuré l'index 0 et affiché le calcul total en html
-    //totals[0].innerHTML = afficheTotal;
-
-
-    
-
-
 
 
 }
-
