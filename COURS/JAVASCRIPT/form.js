@@ -147,10 +147,35 @@ function calculer(quantites, prix)
             {
                 totals[t].innerHTML = quantites[i] * prix[i];
 
+                // stocker les resultats de total par ligne
+                subTotal.push( (quantites[i] * prix[i]) );
             }
             
         }        
     }
 
+    // comment faire une addition des sommes dans notre array
+    console.log(subTotal);
+
+
+    // le resultat precedent execution function  === 25 + 12.5 + 18.75
+    // element courant === 37.5 + 18.75
+    // index element courant === subTotal[2]
+    // array === subTotal ==> 25 + 12.5 + 18.75 + 100 + 2002.64
+
+    // creer une fonction calculer totaux
+    function getTotal( valP, valC )
+    {
+        // faire une addition
+        return valP + valC;
+    }
+    //console.log( subTotal.reduce( getTotal, 0 ) );
+
+    // afficher resultat dans html td subTotal
+    totals[5].innerHTML = Math.round( subTotal.reduce( getTotal, 0 ) );
+
+
+
 
 }
+
