@@ -65,6 +65,35 @@ S'assurer que le dossier de destination existe. Sinon le créer.
 - ls -a
 
 
+## MariaDB et MySQL
+--------------------
+
+Nous avons besoin de créer un utilisateur pour notre base de donnée.
+
+Se connecter à votre base de données MariaDB avec votre compte root. 
+- sudo mariadb -uroot;
+
+Créer une base de données dans MariaDB
+- CREATE DATABASE mydb;
+
+Créer un utilisateur et ajouter un mot de passe. 
+- CREATE USER 'myuser' IDENTIFIED BY 'mypassword';
+
+Donner tout les droits à votre base de données. 
+- GRANT ALL privileges ON `mydb`.* TO 'myuser'@localhost;
+
+Appliquer les changements. 
+- FLUSH PRIVILEGES;
+
+Maintenant vous pouvez commencer à utiliser votre nouvelle base de données avec votre nouvel utilisateur. 
+
+Dans MariaDB, sélectionner votre nouvelle base de données. 
+- USE mydb;
+
+
+
+
+
 
 
 
