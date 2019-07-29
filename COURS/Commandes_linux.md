@@ -80,7 +80,7 @@ Créer un utilisateur et ajouter un mot de passe.
 - CREATE USER 'myuser' IDENTIFIED BY 'mypassword';
 
 Donner tout les droits à votre base de données. 
-- GRANT ALL privileges ON `mydb`.* TO 'myuser'@localhost;
+- GRANT ALL PRIVILEGES ON mydb.* TO 'myuser'@'%' WITH GRANT OPTION;
 
 Appliquer les changements. 
 - FLUSH PRIVILEGES;
