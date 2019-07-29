@@ -30,7 +30,10 @@ Liste des pages actuelles :
 - activites.htm
 - bateaux.htm (liste des bateaux)
 - contact.htm
-- 
+
+
+
+https://www.codeur.com/blog/15-outils-wireframes/
 
 
 ## Nouvelles présentations et propositions possibles
