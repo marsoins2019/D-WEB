@@ -11,6 +11,8 @@ LISTE FICHIERS COURS A DISPOSITION
 
 - Base HTML - HTML.md : https://github.com/marsouin2019/01-D-WEB/blob/master/COURS/HTML.md
 
+- Base CSS : css.md : https://github.com/marsouin2019/01-D-WEB/blob/master/COURS/css.md
+
 - Commandes Linux Mint - Commandes_linux.md : https://github.com/marsouin2019/01-D-WEB/blob/master/COURS/Commandes_linux.md
 
 - Documentation de la CNL - () CNIL_Guide_enseignement.pdf
@@ -18,6 +20,10 @@ LISTE FICHIERS COURS A DISPOSITION
 - Gérer un projet de manière efficiente  : https://www.prendre-en-main.fr/travailler-maniere-efficiente/ 
 
 - Définitions, document que vous pourrez enrichir avec un contenu vérifié - Définitions.md : https://github.com/marsouin2019/01-D-WEB/blob/master/COURS/D%C3%A9finitions.md
+
+- Javascript : Résumé javascript_resume.md : https://github.com/marsouin2019/01-D-WEB/blob/master/COURS/JAVASCRIPT/javascript_resume.md
+
+
 
 
 
