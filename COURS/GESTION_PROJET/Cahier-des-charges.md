@@ -22,6 +22,16 @@ Temps de réalisation de 11h15-12h00 / 13h30-15h30
 
 Faite une nouvelle proposition de ce site.
 
+Liste des pages actuelles :
+- index.html animation
+- intro.htm
+- horaires.htm
+- dessertes.htm (liste des desertes)
+- activites.htm
+- bateaux.htm (liste des bateaux)
+- contact.htm
+- 
+
 
 ## Nouvelles présentations et propositions possibles
 ------------------------------------------------------
