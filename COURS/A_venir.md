@@ -19,6 +19,8 @@ LISTE FICHIERS COURS A DISPOSITION
 
 - Gérer un projet de manière efficiente  : https://www.prendre-en-main.fr/travailler-maniere-efficiente/ 
 
+- Méthode Agile - Scrum :   : https://github.com/marsouin2019/01-D-WEB/blob/master/COURS/GESTION_PROJET/01-%20Agilite.md
+
 - Définitions, document que vous pourrez enrichir avec un contenu vérifié - Définitions.md : https://github.com/marsouin2019/01-D-WEB/blob/master/COURS/D%C3%A9finitions.md
 
 - Javascript : Résumé javascript_resume.md : https://github.com/marsouin2019/01-D-WEB/blob/master/COURS/JAVASCRIPT/javascript_resume.md
