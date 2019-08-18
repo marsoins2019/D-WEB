@@ -88,18 +88,32 @@ Pour déclarer une variable utiliser un nom parlant, pas trop long. Parfois pour
 utiliser le camelCase pour éviter les espaces. 
 Qui ne commence pas par un chiffre. 
 Pour l'affectation d'une variable cela se fait de la gauche vers la droite grâce au signe " = ". 
+L'affectation de chaînes de caractères se fait à l'intérieur de guillemets. 
+
 
 myVariable = 123
 age = myVariable - 100       // age vaut 23
 name = "Marsouins"
 
 
-## conditions
+## Conditions
 
 Nous l'avons vu plus haut. La construction de la condition
 SI quelque chose n'est pas réalisée
 ALORS réaliser cette chose
-SINON passer à la chose suivante 
+SINON passer à la chose suivante
+
+Pour tester les différentes actions, nous utilisons des opérateurs. 
+- = égal à
+- < strictement plus petit que
+- > strictement plus grand que
+- <= inférieur ou égal à
+- >= supérieur ou égal à
+
+- <> ou != Différent de
+- & ET
+- | OU
+ 
 
 Comment vérifier si j'ai l'âge requis pour être Marsouins. 
 
@@ -115,11 +129,47 @@ Je peux être Marsouins
 
 ## Boucle
 
-La boucle est une suite de tests pour vérifier l'état d'une action. 
+La boucle est une suite de tests pour vérifier l'état d'une action pour vérifier que celle-ci soit vrai. 
 
-TANT QUE cette action n'est pas vrai
-ALORS ajouter +1
-SINON arrêter action
+TANTQUE cette action n'est pas vrai
+FAIRE ajouter +1
+FIN TANTQUE arrêter action
+
+Je vais utiliser les mêmes variables de l'exemple précédent. 
+- ageM = 26
+- myAge = 20
+
+TANTQUE myAge < ageM
+FAIRE myAge + 1
+FIN TANTQUE
+
+
+
+
+## Tableaux
+
+Pour stocker en ensemble d'informations qui concerne la même variables, l'utilisation d'un tableau est très utile. 
+Pour déclarer un tableau :
+- monTableau = []
+
+A l'intérieur il est possible de stocker des chaînes de caractères et des nombres. 
+Affections de données dans un tableau de fait comme suit :
+
+- monTableau = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"]
+- autreTableau =[1,2,3,4,5]
+
+Pour afficher une valeur précise d'un tableau, il faut appeler le tableau par l'index de la valeur souhaitée. 
+**ATTENTION** en algorithme l'index de tableau commence par 1 mais en utilisant un langage de programmation, l'index d'un tableau commence par 0.
+
+monTableau[2] affiche la valeur "Mardi"
+autreTableau[4] affiche la valeur 4
+
+En JavaScript par exemple la lecture du tableau donne ceci :
+
+monTableau[2] affiche la valeur "Mercredi"
+autreTableau[4] affiche la valeur 5
+
+Pour lire l'ensemble des valeurs d'un tableau, on utilise une boucle. 
 
 
 
