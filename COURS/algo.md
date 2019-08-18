@@ -170,6 +170,53 @@ monTableau[2] affiche la valeur "Mercredi"
 autreTableau[4] affiche la valeur 5
 
 Pour lire l'ensemble des valeurs d'un tableau, on utilise une boucle. 
+Il faut compter le nombre d'éléments dans un tableau, ce nombre sera la limite de lecture du tableau. 
+
+Il faut déclarer une variable pour déclencher la boucle. 
+
+
+
+
+
+
+
+
+## Fonctions
+
+Les fonctions sont très pratiques pour mettre en place des algorithmes répétitif et permet une écriture plus courte. 
+Dans certains langages de programmation, des fonctions existent, il suffit juste de les appeler. 
+
+Par exemple une fonction connue est celle d'afficher une date :
+- date()     // affiche la date du jour
+
+Cette fonction peut aussi accepter des paramètres. Par exemple, je veux afficher l'année uniquement. 
+- date("Y")  // affiche 2019
+
+On peut aussi créer des fonctions pour réaliser des actions correspondant à nos besoins. . 
+
+Par exemple déclararer une fonction "calculer" pour effectuer une addition et afficher le résultat. 
+
+FONCTION calculer(parametre1, parametre2)
+{
+  // Faire une addition et sauvegarder résultat
+  total = parametre1 + parametre2
+
+  // Afficher résultat
+  AFFICHER total
+
+}
+
+Pour exécuter la fonction et passer des nombres en paramètre il faut faire ceci :
+calculer(400, 560)
+
+Le résultat sera 960. 
+
+
+
+
+
+
+
 
 
 
