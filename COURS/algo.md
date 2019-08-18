@@ -1,7 +1,11 @@
 # Algorithme
 -------------
 
-Est un ensemble d'actions qui vont évoluer en fonction de la situation. 
+Quand on commence l'apprentissage d'un langage de programmation, il faut commencer par imaginer notre projet de création de programme. 
+C'est pourquoi on commence l'apprentissage par le crayon et papier pour se poser une suite de questions. 
+C'est le début de la programmation, cela s'appelle de l'algorithme. 
+
+L'algorithme est un ensemble d'actions qui vont évoluer en fonction de la situation. 
 En algorithme le programme commence toujours par un début et une fin, c'est pourquoi il est important d'écrire c'est deux mots.
 
 Par exemple décrire toutes les actions pour aller au travail. 
@@ -15,7 +19,7 @@ Début
 - je mange 
 - je bois
 - je mets mes chaussures
-- je part
+- je pars
 - j'arrive au travail
 Fin
 
