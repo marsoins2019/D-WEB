@@ -34,10 +34,17 @@ Ainsi de suite.
 C'est des conditions qui s'écrit comme suit :
 
 Début
-- le réveil sonne,
+le réveil sonne,
+
 SI je n'entends pas le réveil
+
 ALORS
-- le réveil sonne plus fort
+
+--le réveil sonne plus fort
+
+SINON
+--Je me réveille
+
 Fin
 
 
