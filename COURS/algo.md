@@ -94,6 +94,41 @@ age = myVariable - 100       // age vaut 23
 name = "Marsouins"
 
 
+## conditions
+
+Nous l'avons vu plus haut. La construction de la condition
+SI quelque chose n'est pas réalisée
+ALORS réaliser cette chose
+SINON passer à la chose suivante 
+
+Comment vérifier si j'ai l'âge requis pour être Marsouins. 
+
+Il faut pour cette exemple 2 variables
+- ageM = 26
+- myAge = 20
+
+SI myAge > ageM ALORS
+Je ne peux pas être Marsouins
+SINON
+Je peux être Marsouins
+
+
+## Boucle
+
+La boucle est une suite de tests pour vérifier l'état d'une action. 
+
+TANT QUE cette action n'est pas vrai
+ALORS ajouter +1
+SINON arrêter action
+
+
+
+
+
+
+
+
+
 
 
 
