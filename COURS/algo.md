@@ -176,11 +176,6 @@ Il faut déclarer une variable pour déclencher la boucle.
 
 
 
-
-
-
-
-
 ## Fonctions
 
 Les fonctions sont très pratiques pour mettre en place des algorithmes répétitif et permet une écriture plus courte. 
@@ -212,26 +207,13 @@ calculer(400, 560)
 Le résultat sera 960. 
 
 
+## Mettre en pratique
+
+A partir de tout les éléments vus ici, seriez-vous capable d'écrire une fonction "aller_au_travail()"?
+A vous de jouer. 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## pour vous entraîner
 
 
 Exercice en ligne
