@@ -1,6 +1,39 @@
 # Algorithme
 -------------
 
+Est un ensemble d'actions qui vont évoluer en fonction de la situation. 
+Par exemple décrire toutes les actions pour aller au travail. 
+
+Début
+- le réveil sonne
+- je me réveille
+- je me lave
+- je m'habille
+- je me coiffe
+- je mange 
+- je bois
+- je mets mes chaussures
+- je part
+- j'arrive au travail
+Fin
+
+C'est le programme. Maintenant les actions vont être conditionnées par d'autres sous-actions ce qui va permettre l'avancement du programme. 
+Par exemple. 
+
+Début
+- le réveil sonne ( est-ce que j'ai entendu le réveil ? Oui/non
+Fin
+
+Si c'est Oui je peux passer à l'étape suivante, si c'est Non le programme s'arrête là. 
+Pour éviter cela, il faut prévoir une étape supplémentaire pour dire :
+- le réveil sonne plus fort 
+
+Ainsi de suite. 
+
+En algorithme le programme commence toujours par un début et une fin, c'est pourquoi il est important d'écrire c'est deux mots
+
+
+
 
 
 
