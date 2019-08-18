@@ -2,6 +2,8 @@
 -------------
 
 Est un ensemble d'actions qui vont évoluer en fonction de la situation. 
+En algorithme le programme commence toujours par un début et une fin, c'est pourquoi il est important d'écrire c'est deux mots.
+
 Par exemple décrire toutes les actions pour aller au travail. 
 
 Début
@@ -29,11 +31,14 @@ Pour éviter cela, il faut prévoir une étape supplémentaire pour dire :
 - le réveil sonne plus fort 
 
 Ainsi de suite. 
+C'est des conditions qui s'écrit comme suit :
 
-En algorithme le programme commence toujours par un début et une fin, c'est pourquoi il est important d'écrire c'est deux mots
-
-
-
+Début
+- le réveil sonne,
+SI je n'entends pas le réveil
+ALORS
+- le réveil sonne plus fort
+Fin
 
 
 
