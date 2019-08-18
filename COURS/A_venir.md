@@ -19,9 +19,12 @@ LISTE FICHIERS COURS A DISPOSITION
 ------------
 
 - Base HTML - HTML.md : https://github.com/marsouin2019/01-D-WEB/blob/master/COURS/HTML.md
-
 - Base CSS : css.md : https://github.com/marsouin2019/01-D-WEB/blob/master/COURS/css.md
 
+## Programmation
+----------------
+
+- Algorithme - algo.md  : https://github.com/marsouin2019/01-D-WEB/blob/master/COURS/algo.md
 - Javascript : Résumé javascript_resume.md : https://github.com/marsouin2019/01-D-WEB/blob/master/COURS/JAVASCRIPT/javascript_resume.md
 
 
