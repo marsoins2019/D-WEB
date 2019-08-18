@@ -99,7 +99,7 @@ Balise de paragrahe. Cette balise crée automatiquement un espace de avant et ap
 Cela aura son importance dans la mise en forme de style de votre contenu.
 
 
-###  `<img>`
+#### `<img>`
 Cette balise permet d'afficher une image dans votre page HTML. Cette balise contient des attributs divers.
 - pour récupérer la source de l'image  : **src="CHEMIN DE L'IMAGE"**
 - pour afficher le titre de l'image (très important d'une part pour identifier l'image en texte mais aussi très importante pour les logiciels d'assistance pour les non-voyants) : **alt="NOM DE L'IMAGE"**
@@ -108,19 +108,26 @@ Cette balise permet d'afficher une image dans votre page HTML. Cette balise cont
 - de position : **ALIGN="top"** (top 'haut', middele 'au millieu', bottom 'en bas', etc..)
 
 
-###  `<a>`
+#### `<a>`
 Cette balise affiche un lien hypertexte qui permet de charger une autre page, une image, un fichier.
 elle conttient des attributs.
 - pour indiquer une chemin de destination : **href="URL DE DESTINATION"**
 - pour indiquer le titre du lien : **title="TITRE DU LIEN"**
 Par défaut le lien hypertexte est de couleur bleu. Si vous avez déjà cliqué dessus, il sera de couleur mauve ou violet et rouge si vous restez cliqué dessus.
 
-####  `<ul> (Unordered list)`
+##### chemin sources
+
+Pour indiquer le chemin d'une source vous avez 2 options :
+- absolu = https ://www.domaine/uri/source
+- relatif = uri/source ou source
+
+
+#### `<ul> (Unordered list)`
 Balise qui permet la mise en place d'une liste non-ordonnée. C'est une balise qui encadre une autre balise `<li>`.
 Par défaut cette balise affiche un petit cercle.
 
 
-####  `<ol> Ordered Lists`
+##### `<ol> Ordered Lists`
 Balise qui permet la mise en place d'une liste ordonnée. C'est une balise qui encadre une autre balise `<li>`.
 Par défaut cette balise affiche un petit cercle.
 
@@ -206,8 +213,6 @@ Engloble de manière pour visuel le contenu des colonnes et lignes d'une tableau
 
 ###  `<tfoot>`
 Permet de mettre en avant un type d'information pour le tableau. Par exemple une ligne de comptage.
-
-
 
 
 Pour l'essentiel avec l'ensemble des balises de ce document vous avez un bon début d'une page HTML.
