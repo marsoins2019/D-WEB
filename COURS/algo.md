@@ -105,10 +105,10 @@ SINON passer à la chose suivante
 
 Pour tester les différentes actions, nous utilisons des opérateurs. 
 - = égal à
-- < strictement plus petit que
-- > strictement plus grand que
-- <= inférieur ou égal à
-- >= supérieur ou égal à
+- `< strictement plus petit que`
+- `> strictement plus grand que`
+- `<= inférieur ou égal à`
+- `>= supérieur ou égal à`
 
 - <> ou != Différent de
 - & ET
