@@ -1,7 +1,12 @@
 # 01-D-WEB
 Repository contenant documents pour la formation
 
-Vous trouverez ici des documents liés à votre formation
+Vous trouverez ici des documents liés à votre formation. 
+
+Voici le lien discord Simplon, vous y trouverez de la documentation et autre tutos. 
+Vous pourrez aussi discuter avec certains membres de Simplon outre-mer. 
+https://discord.gg/MxMey4Z
+
 
 A LIRE OBLIGATOIREMENT
 -----------------------
