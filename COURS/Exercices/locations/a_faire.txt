@@ -1,0 +1,62 @@
+Créer le site web à partir de l'image fournit à l'identique.
+
+Nom de domaine : locations-tout-genre.com
+
+
+Ce site servira de base pour les travaux et cours à venir.
+
+Respecter scrupuleusement l'arborescence du site et les couleurs.
+Faite attention au design du menu et son hover (rollover).
+Attention aux couleurs sur les différents blocs de texte.
+
+Le titre H1 sera pour le logo LOCATION FIND
+
+Vous trouverez les icônes ici :
+- https://fontawesome.com/
+
+
+Les couleurs :
+
+- header
+
+#1569b2
+
+
+- menu
+#003663
+#0c99c8
+#04264c (liens)
+
+#b2cd1d (register bottom, add location bottom)
+
+- icônes
+#0c99c8
+#c2d835
+
+tableau
+#fbffe4
+#fff
+
+icones tableau
+#a6af70
+#b3b3b3
+
+
+
+- footer
+#003663
+
+
+
+
+Liste des pages
+- accueil (index.php)
+
+
+
+Vous devez utilisez les langages suivants :
+
+- HTML5/CSS3 BOOTSTRAP
+- JQUERY
+
+
