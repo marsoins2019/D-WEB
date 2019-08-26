@@ -1,0 +1,48 @@
+/* les bases  */
+
+body {
+   
+}
+h1 {
+   color: #fff; 
+   font-size: 25px;
+   padding: 10px;
+}
+header {
+    background-color: #1569b2;
+}
+
+
+.cyan {
+    color: #0c99c8;
+}
+.pHeader {
+    padding: 10px;
+    margin-left: 300px;
+}
+.pHeader > i {
+    margin-left: 20px;
+    font-size: 25px;
+    
+}
+
+nav.menu {
+    background-color: #003664;
+    height: 50px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    color: #fff;
+    padding: 10px;
+}
+nav ul li > a {
+    color: #fff;
+}
+
+.lShop li {
+    background-color: #04264c;
+    height: 100px;
+}
