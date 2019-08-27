@@ -19,8 +19,11 @@ Cette dernière sera la plus utilisée sauf dans le cadre d'une mise en forme po
 Seule la mise en forme avec les balises de ` <table><tr><td>contenu</td></tr></table>` 
 
 
+## Mettre une couleur dans un tableau une ligne sur 2
 
-
+- https://www.zonecss.fr/proprietes-css/nth-of-type-css-selector.html
+- https://developer.mozilla.org/fr/docs/Web/CSS/:nth-of-type
+- http://www.css3create.com/nth-of-type
 
 
 
