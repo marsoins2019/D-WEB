@@ -29,27 +29,118 @@
       </header>
       <nav class="menu">
         <div class="container">
-        <div class="row">
-            <div class="col">
-                <ul class="lShop">
-                    <li>
-                        <a href="http://"><i class="fas fa-map-marker-alt"></i> Find Locations</a>
-                    </li>
-                    <li><a href="http://"><i class="fas fa-book-open"></i> Our Species</a></li>
-                    <li><a href="http://"><i class="fas fa-shopping-basket"></i> Shop</a></li>
-                </ul>
+            <div class="row">
+                <div class="col">
+                    <ul class="lShop">
+                        <li>
+                            <a href="http://"><i class="fas fa-map-marker-alt"></i> Find Locations</a>
+                        </li>
+                        <li><a href="http://"><i class="fas fa-book-open"></i> Our Species</a></li>
+                        <li><a href="http://"><i class="fas fa-shopping-basket"></i> Shop</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="lAccount">
+                        <li><a href="http://"><i class="fas fa-window-restore"></i> My account</a></li>
+                        <li><a href="http://"><i class="fas fa-bookmark"></i> Sign Up</a></li>
+                        <li><a href="http://"><i class="fas fa-envelope"></i> Contact</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col">
-                <ul class="lAccount">
-                    <li><a href="http://"><i class="fas fa-window-restore"></i> My account</a></li>
-                    <li><a href="http://"><i class="fas fa-bookmark"></i> Sign Up</a></li>
-                    <li><a href="http://"><i class="fas fa-envelope"></i> Contact</a></li>
-                </ul>
+        </div>
+        </nav>   
+        <div class="container bCyan">
+            <div class="row">
+                <div class="col">
+                    <p>View a location</p>
+                </div>
+                <div class="col">
+                    <ul class="register">
+                        <li><a href="http://">Login Here or</a></li>
+                        <li><a href="http://" class="btn btn-green">Register</a></li>
+                    </ul>
+                </div>
             </div>
+        </div>
+        <div class="container loc">
+            <p><span class="badge badge-secondary">1</span> Drop Pin onto the location on map</p>
+            <p><span class="badge badge-secondary">2</span> Add a Species found at location</p>
+            <form action="">
+                <select name="" id="" >
+                    <option value="">
+                        Select Fish
+                    </option>
+                </select>
+                <button class="btn btn-green">Add Location</button>
+            </form>
+        </div>
+        <div class="container content">
+            <div class="row">
+                <div class="col-2">
+                    <div class="btn-group-vertical">
+                        <button type="button" class="btn btn-cyan"><i class="fas fa-user"></i></button>
+                        <button type="button" class="btn btn-cyan"><i class="fas fa-cog"></i></button>
+                        <button type="button" class="btn btn-cyan"><i class="fas fa-star"></i></button>
+                        <button type="button" class="btn btn-cyan"><i class="fas fa-map-marker-alt"></i></button>
+                        <button type="button" class="btn btn-green"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="col-10">
+                    <h2>Locations you've Add</h2>
+                    <p class="pStyl">Lets got some dunny no worries come a bloke. Stands out like a ridgy-didge where lets throw a sickie.</p>
+                    <table class="table table-striped">
+                        <tbody>
+                            <tr>
+                                <td class="strong">Blaz's wichaed ass fishing spot.</td>
+                                <td>Mullet, Autralian Salmon, Travelly</td>
+                                <td>see location <i class="far fa-comment-alt"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="strong">Ball Bag River</td>
+                                <td>Mullet, Autralian Salmon, Travelly</td>
+                                <td>see location <i class="far fa-comment-alt"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="strong">Aireys Inlet - Eagle Rock</td>
+                                <td>Beach east side of Aire River...</td>
+                                <td>see location <i class="far fa-comment-alt"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="strong">Ball Bag River</td>
+                                <td>Mullet, Autralian Salmon, Travelly</td>
+                                <td>see location <i class="far fa-comment-alt"></i></td>
+                            </tr>
+                            
+                        </tbody>
+                   </table>
+                </div>
             </div>
         </div>
 
-      </nav>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+     
 
     
     
