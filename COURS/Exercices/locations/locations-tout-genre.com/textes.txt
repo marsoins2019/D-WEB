@@ -28,3 +28,9 @@ Account Informations
     Join us
 
 Ours Networks
+
+
+/* Mettre en couleur une ligne sur 2 dans un tableau   */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fbffe2;
+}
