@@ -70,7 +70,22 @@ $("#frmPass").blur(function(){
     
 });
 
+$("#frmPassb").blur(function(){
+    if( $(this).val().length == 0 )
+    {
+        $(this).addClass("is-invalid");
 
+    } else {
+        // test valeur du mot de passe
+        if( $(this).val() != $("#frmPass").val() )
+        {
+            $(this).addClass("is-invalid");
+        } else {
+            $(this).removeClass("is-invalid").addClass( "is-valid" );
+            
+        }
+    }
+});
 
 
 
