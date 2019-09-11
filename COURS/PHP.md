@@ -60,6 +60,19 @@ https://www.php.net/manual/fr/language.types.intro.php
 - Nous avons vu le type Array : https://www.php.net/manual/fr/language.types.array.php
 
 
+## Afficher une chaine de caractères
+
+https://www.php.net/manual/fr/function.echo.php
+
+
+## Information sur une variable
+
+https://www.php.net/manual/fr/function.var-dump.php
+
+https://www.php.net/manual/fr/function.print-r.php
+
+
+
 ### Array 
 
 https://www.php.net/manual/fr/intro.array.php
@@ -71,10 +84,14 @@ https://www.php.net/manual/fr/function.array.php
 
 
 
-
 ## Variables
 
 - https://www.php.net/manual/fr/language.variables.basics.php
+
+
+### Constante
+
+https://www.php.net/manual/fr/language.constants.php
 
 
 
@@ -106,6 +123,75 @@ https://www.php.net/manual/fr/control-structures.if.php
 https://www.php.net/manual/fr/control-structures.else.php
 
 
+### Syntaxe alternative
 
+https://www.php.net/manual/fr/control-structures.alternative-syntax.php
+
+
+
+
+## Les boucles
+
+
+### FOR
+
+https://www.php.net/manual/fr/control-structures.for.php
+
+
+### FOREACH
+
+https://www.php.net/manual/fr/control-structures.foreach.php
+
+
+### WHILE
+
+https://www.php.net/manual/fr/control-structures.while.php
+
+
+### DO WHILE
+
+https://www.php.net/manual/fr/control-structures.do.while.php
+
+
+## Instruction
+
+### BREAK
+
+https://www.php.net/manual/fr/control-structures.break.php
+
+
+### SWITCH
+
+https://www.php.net/manual/fr/control-structures.switch.php
+
+
+
+## Include
+
+https://www.php.net/manual/fr/function.include.php
+
+
+## Required
+
+https://www.php.net/manual/fr/function.require.php
+
+
+
+## Securite cryptage
+
+
+## MD5
+
+https://www.php.net/manual/fr/function.md5.php
+
+
+## SHA1
+
+https://www.php.net/manual/fr/function.sha1.php
+
+
+## CRYPT
+
+https://www.php.net/manual/fr/function.crypt.php
 
 
