@@ -26,7 +26,7 @@ Il existe plus d'une façon de créer un fichier. Soit créer un fichier vide, s
 - sudo usermod -aG sudo nomutilisateur  
 
 ## Changer les droits utilisateur sur un dossier complet
-- cd /var/www/html/
+- cd /var/www/html/ ou cd /var/www/
 - sudo chown -R nomutilisateur nomdossier
 - sudo chown -R ambrosio portfolio
 - sudo chown -R ambrosio *   (tous les dossiers et fichiers)
