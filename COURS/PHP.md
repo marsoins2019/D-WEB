@@ -234,3 +234,6 @@ Il faut appliquer les modifications pour le serveur Apache2. Pour se faire utili
 
 Vous n'aurez aucun message de confirmation.
 
+
+# Connexion à une base de données.
+
