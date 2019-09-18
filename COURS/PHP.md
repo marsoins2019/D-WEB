@@ -195,3 +195,42 @@ https://www.php.net/manual/fr/function.sha1.php
 https://www.php.net/manual/fr/function.crypt.php
 
 
+# Afficher les erreurs PHP
+
+Comme vous avez pu le constater, quand vous avez une erreur PHP le résultat affiche une page blanche. Cela ne vous permet pas complètement de comprendre d'où vient votre erreur.
+
+Heureusement, il est possible de changer cela alors faite bien attention à l'explication suivante. Il faut faire très **ATTENTION** à ce que vous modifier.
+
+## afficher la configuration de votre php
+- A la racine de votre site web, 
+- créer une page : info.php, 
+- ouvrir les chevrons '<?php' et instancier la méthode 'phpinfo();'
+- sauvegarder
+- lancer la page dans votre navigateur
+- recherche l'information 'Loaded Configuration File ' cela vous indique la position du fichier de configuration de php. 'php.ini'
+- ouvrir le terminal 
+- en mode SUDO éditer le fichier php.ini
+
+## Il faut modifier les informations suivantes : error_reporting  et  display_errors
+
+Pour faire une recherche dans le fichier 'php.ini', utiliser les touches 'Ctrl' + 'w' et dans le champs recherche, écrivez 'error_reporting'.
+Le curseur de recherche va vous positionner dans le 1er résultat, ce n'est pas le bon, relancer de nouveau la recherche 'Ctrl'+'w' valider directement sans modification. Le second résultat, le curseur sera positionné sur la ligne suivante :
+- error_reporting : E_ALL & ~E_DEPRECATED & ~E_STRICT
+
+Modifier cette ligne comme suit :
+- error_reporting : E_ALL
+
+
+Refaire une autre recherche dans le même fichier,  utiliser les touches 'Ctrl' + 'w' et dans le champs recherche, écrivez 'display_errors'.
+Le curseur de recherche va vous positionner dans le 1er résultat, si vous êtes dans la section 'Quick Reference', le 1er résultat n'est pas le bon, relancer la recherche 'Ctrl' + 'w' et valider directement. Le curseur va se positionner sur la ligne suivante : 'Display_error : Off'
+- Changer la valeur par : 'On'
+
+Sauvegarder le fichier avec les touches 'Ctrl' + 'x' et confirmer la modification.
+
+
+## Prise en compte des modifications par Apache2
+Il faut appliquer les modifications pour le serveur Apache2. Pour se faire utiliser la commande suivante :
+- sudo service apache2 reload
+
+Vous n'aurez aucun message de confirmation.
+
