@@ -33,12 +33,19 @@ class Personne
 
         // mise en forme et securite password
         $this->civilite = $data["frmCivilite"];
+        if( $this->civilite != "M" || $this->civilite != "Mme" )
+        {
+            return false;
+        }
+
         $this->prenom = ltrim(htmlentities(ucfirst($data["frmPrenom"])));
         $this->nom = ltrim(htmlentities(strtoupper($data["frmNom"])));
 
         $this->adresse = ltrim(htmlentities($data["frmAdresse"]));
         $this->complementaire = ltrim(htmlentities($data["frmComplementaire"]));
         $this->postal = ltrim(htmlentities($data["frmPostal"]));
+        
+
         
         $this->ville = ltrim(htmlentities(ucfirst($data["frmVille"])));
         $this->telephone = ltrim(htmlentities($data["frmPhone"]));
@@ -47,14 +54,21 @@ class Personne
 
         // mise en securite du mot de passe
 
+        // condition test longueur chaine mot de passe
+        if( strlen($data["frmPass"]) < 8 )
+        {
+            return false;
 
-        $this->password = password_hash($data["frmPass"], PASSWORD_DEFAULT);
-
-
-        
-
+        } else {
+            if( strlen($data["frmPass"]) > 12)
+            {
+                return false;
+            } else {
+                $this->password = password_hash($data["frmPass"], PASSWORD_DEFAULT);
+            }
+        }
        
-
+        
 
     }
 
