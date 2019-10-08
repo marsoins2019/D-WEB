@@ -1,0 +1,1 @@
+INSERT INTO logins SET email="martines@gmail.com", idpersonne="3";
