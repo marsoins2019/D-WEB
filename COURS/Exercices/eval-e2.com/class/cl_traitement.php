@@ -48,7 +48,7 @@ class Personne
         $this->prenom = ltrim(htmlentities(ucfirst($data["frmPrenom"])));
         $this->nom = ltrim(htmlentities(strtoupper($data["frmNom"])));
         $this->adresse = ltrim(htmlentities($data["frmAdresse"]));
-        $this->complementaire = ltrim(htmlentities($data["frmComplementaire"]));
+        $this->complementaire = ltrim(htmlentities($data["frmSuite"]));
         
         
         // preg_match();
@@ -107,18 +107,47 @@ class Personne
         }
 
 
-        // insert data in database
+       // insert data in database
 
         // table personnes
         // table logins
 
-        // requete inert data
+        // requete insert data
+        $resultat = $this->connectDB->query("INSERT INTO personnes (civilite, nom, prenom, adresse, complementaire, postal, ville, telephone)
+        VALUES ( '". $this->civilite ."', '".$this->nom."', '".$this->prenom."', '".$this->adresse."',
+        '".$this->complementaire."', '".$this->postal."', '".$this->ville."', '".$this->telephone."') ");
+
+        //print_r($resultat);
+
+        // requete select lastid
+        if($resultat == 1)
+        {
+            // requete select pour recuperer id personne
+            $idPersonne = $this->connectDB->query("SELECT id FROM personnes WHERE telephone = '".$this->telephone."' ");
+            $row = $idPersonne->fetch_assoc();
+
+            // id
+            $idP = $row["id"];
+
+            if(!empty($idP))
+            {
+                $resultat = $this->connectDB->query("INSERT INTO logins ( email, password, idpersonne ) VALUES ( '".$this->email."',
+            '".$this->password."', '".$idP."' )");
+
+                //print_r($resultat);
+
+                // redirection vers page connexion
+                header("Location: http://localhost/eval-e2.com/login.php", replace);
+                
+
+            } else {
+                // @TODO gerer les doublons
+                echo "probleme d'insertion d'une personne";
+            }
+
+
+        }
        
-
-
-
-       
-        
 
     }
 
