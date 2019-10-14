@@ -38,7 +38,7 @@
                         </div>
                         <div class="form-group">
                             <label for="">Suite</label>
-                            <input type="text" class="form-control" id="frmSuite" aria-describedby="" placeholder="Complément d'adresse" name="frmNom">
+                            <input type="text" class="form-control" id="frmSuite" aria-describedby="" placeholder="Complément d'adresse" name="frmSuite">
                             <small id="suiteHelp" class="form-text text-muted">Ce champs est obligatoire.</small>
                         </div>
                         <div class="form-group">
