@@ -45,12 +45,13 @@ LISTE FICHIERS COURS A DISPOSITION
 
 - exo1 : https://github.com/marsouin2019/01-D-WEB/tree/master/COURS/Exercices/exo1
 - exo2 : https://github.com/marsouin2019/01-D-WEB/tree/master/COURS/Exercices/exo2
-- eval-e2.com : https://github.com/marsouin2019/01-D-WEB/tree/master/COURS/Exercices/eval-e2.com
+- eval-e2.com (correction/cours) : https://github.com/marsouin2019/01-D-WEB/tree/master/COURS/Exercices/eval-e2.com
 
 
 ### Evaluations
 
 - locations-tout-genre.com : https://github.com/marsouin2019/01-D-WEB/tree/master/COURS/Exercices/locations
+(à faire et visuels : https://github.com/marsouin2019/01-D-WEB/tree/master/Evaluations/projets/E2)
 
 
 
