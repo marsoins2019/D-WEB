@@ -50,7 +50,7 @@ LISTE FICHIERS COURS A DISPOSITION
 
 ### Evaluations
 
-- locations-tout-genre.com
+- locations-tout-genre.com : https://github.com/marsouin2019/01-D-WEB/tree/master/COURS/Exercices/locations
 
 
 
