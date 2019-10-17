@@ -12,6 +12,7 @@
 ## Evaluations
 
 - locations-tout-genre.com : https://github.com/marsouin2019/01-D-WEB/tree/master/COURS/Exercices/locations
+visuels : https://github.com/marsouin2019/01-D-WEB/tree/master/Evaluations/projets/E2
 
 
 
