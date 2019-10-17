@@ -17,9 +17,9 @@
 
 // definir les constantes de connexion
 define("SERVEUR", "localhost");
-define("USER", "marsouin");
-define("PASSWORD", "mrsma");
-define("DATABASE", "dweb");
+define("USER", "xxxx");
+define("PASSWORD", "xxxx");
+define("DATABASE", "xxxx");
 
 
 // connexion database
