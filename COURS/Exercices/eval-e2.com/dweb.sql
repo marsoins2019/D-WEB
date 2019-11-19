@@ -40,7 +40,6 @@ CREATE TABLE `logins` (
 --
 
 INSERT INTO `logins` (`id`, `email`, `password`, `date_heure`, `ip`, `idpersonne`) VALUES
-(1, 'martine.ambrosio@gmail.com', '$2y$10$pKrpkdiYgUz.9IHw8RjaF.KRjTEZX8BU.93sYtOmYbgVl2uKenWvi', '', '', 1),
 (2, 'bgustavo.ferraz@mybisnis.online', '$2y$10$pKrpkdiYgUz.9IHw8RjaF.KRjTEZX8BU.93sYtOmYbgVl2uKenWvi', '', '', 2),
 (3, 'smarcus@stevyal.tech', '$2y$10$pKrpkdiYgUz.9IHw8RjaF.KRjTEZX8BU.93sYtOmYbgVl2uKenWvi', '', '', 3),
 (4, '6mascarien.boyd@c-newstv.ru', '$2y$10$pKrpkdiYgUz.9IHw8RjaF.KRjTEZX8BU.93sYtOmYbgVl2uKenWvi', '', '', 5),
@@ -82,7 +81,6 @@ CREATE TABLE `personnes` (
 --
 
 INSERT INTO `personnes` (`id`, `nom`, `prenom`, `civilite`, `adresse`, `complementaire`, `postal`, `ville`, `telephone`) VALUES
-(1, 'AMBROSIO', 'Martine', 'M', '10 rue des sonnettes', '', '97139', 'Les abymes', '0690690778'),
 (2, 'Tomjoanlas', 'Jean', 'M', '', '', '', '', '0696632312'),
 (3, 'Pehesrie', 'Valérie', 'M', '', '', '97139', '', '0690631245'),
 (4, 'Messabethvia', 'Yannick', 'M', '', '', '', '', '0696633212'),
