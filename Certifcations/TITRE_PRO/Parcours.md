@@ -1,6 +1,6 @@
 # Kesako ? 
 ------------
-Le titre professionnel "développeur web et web mobile" est un diplôme reconnu par l'Etat de niveau III , équivalent d'un bac +2. 
+Le titre professionnel "développeur web et web mobile" est un diplôme reconnu par l'Etat de niveau V , équivalent d'un bac +2. 
 
 Passer le titre te permet de : 
 
