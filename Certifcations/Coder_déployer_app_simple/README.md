@@ -2,7 +2,7 @@
 
 ## Guide de l’apprenant
 
-Documentation à lire pour votre information
+Documentation à lire pour votre information, cliquez sur les liens ou vous rendre de le dossier 'Coder_déployer_app_simple'
 
 - Guide_de_l’apprenant_-_certification__Coder_et_déployer_une_application_web_simple_.pdf :
 
