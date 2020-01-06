@@ -38,4 +38,11 @@ uid, title, position, dt_add, dt_edi
 
 3) Réaliser la création de cette base de données
 
+## informations
+
+La clé primaire sera UID, c’est un champ qui ne sera pas autoincrémenté, mais généré par l’ap-
+plication, une chaine de caractère proche de celle des identifiants que l’on trouve sur Youtube
+dans leur URL.
+
+
 Faire un export de votre base de données sur fichier sql avec votre nom.
