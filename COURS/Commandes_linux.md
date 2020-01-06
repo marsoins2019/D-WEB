@@ -31,6 +31,55 @@ Il existe plus d'une façon de créer un fichier. Soit créer un fichier vide, s
 - sudo chown -R ambrosio portfolio
 - sudo chown -R ambrosio *   (tous les dossiers et fichiers)
 
+## Changer les droits écritures/lecture/execution sur un dossier complet
+Les droits sur les fichiers et dossiers avec Linux sont définit comme suit :
+- r (read - lecture)
+- w (write - écriture)
+- x (execute - exécuter)
+
+Ces droits sur les fichiers et dossiers ont une valeur ( octal ) qui sont :
+- r = 4
+- w = 2
+- x = 1
+
+La somme de (r+w+x) = 7
+
+Ces droits sont identifiés par 3 types pour Linux qui sont :
+- U (user - utilisateur )
+- G (group - groupe )
+- O (other - autre )
+
+En résumé les droits sont positionnés comme suit :
+
+| U   |  G  |  O |
+|----|:---:|---:|
+| r+w+x | r+w+x | r+w+x |
+| 4+2+1 | 4+2+1 | 4+2+1 |
+| 7 | 7 | 7 |
+
+
+**ATTENTION** : Il est très important de ne **PAS** donner les droits (r+w+x) sur des dossiers sensibles.
+
+
+Les droits par défaut acceptable sur les DOSSIERS est : 
+- 755 
+
+Pour les fichiers :
+- 664
+
+
+### Changer les droits sur un dossier complet téléchargé ou un glissé déposé via Visual Studio Code
+
+- cd /var/www/html ou cd /var/www/
+- sudo chmod -R 755 nomdudossier
+- sudo chmod -R 755 formations.com
+
+| U   |  G  |  O |
+|----|:---:|---:|
+| r+w+x | r+-+x | r+-+x |
+| 4+2+1 | 4+-+1 | 4+-+1 |
+| 7 | 5 | 5 |
+
 
 ## Déplacer un fichier - un dossier
 
@@ -73,6 +122,10 @@ Nous avons besoin de créer un utilisateur pour notre base de donnée.
 Se connecter à votre base de données MariaDB avec votre compte root. 
 - sudo mariadb -uroot;
 
+**ATTENTION** : **'mydb', 'myuser' et 'mypassword'** sont des exemples pour les explications. Remplacer 'mydb' par le nom de votre base de données, 'myuser' par le nom de votre utilisateur et 'mypassword' par votre mot de passe.
+
+Le mot de passe pour votre utilisateur doit être plus de 8 caractères avec des majucules, minuscules et caractères spéciaux en production.
+
 Créer une base de données dans MariaDB
 - CREATE DATABASE mydb;
 
@@ -89,14 +142,4 @@ Maintenant vous pouvez commencer à utiliser votre nouvelle base de données ave
 
 Dans MariaDB, sélectionner votre nouvelle base de données. 
 - USE mydb;
-
-
-
-
-
-
-
-
-
-
 
