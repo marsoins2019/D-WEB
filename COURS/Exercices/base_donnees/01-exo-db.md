@@ -44,5 +44,8 @@ La clé primaire sera UID, c’est un champ qui ne sera pas autoincrémenté, ma
 plication, une chaine de caractère proche de celle des identifiants que l’on trouve sur Youtube
 dans leur URL.
 
+**Aide** : Ne pas oublier la table de liaison entre produit et catégorie car un produit peut avoir
+plusieurs catégories. La nomenclature du suffixe ne sera plus t_ mais lk_ (pour LINK)
+
 
 Faire un export de votre base de données sur fichier sql avec votre nom.
