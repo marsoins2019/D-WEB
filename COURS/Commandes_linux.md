@@ -86,7 +86,7 @@ Pour les fichiers :
 ### Déplacer un fichier vers un dossier
 S'assurer que le dossier de destination existe. Sinon le créer.
 - sudo mv nomdufichier dossierdestination/
-- sudp mv index.html /var/www/html/projets/gestion/
+- sudo mv index.html /var/www/html/projets/gestion/
 
 
 ### Déplacer un dossier vers un autre emplacement
