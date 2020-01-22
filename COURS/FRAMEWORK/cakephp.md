@@ -11,6 +11,7 @@ Notre objectif principal est de vous permettre de travailler de manière rapide 
 -- source : https://book.cakephp.org/1.3/fr/The-Manual/Beginning-With-CakePHP/Understanding-Model-View-Controller.html --
 
 
+Tous ce qui va suivre se fait exclusivement en ligne de commande dans le terminal de votre système.
 
 # pré-requis pour installer cakephp
 
@@ -25,6 +26,88 @@ Il fonctionne avec le serveur web Apache, nginx, LightHTTPD ou Microsoft IIS.
     L’extension PHP simplexml
 
 
+Pour installer les packages cités :
+- sudo apt-get install php7.2-mbstring
+- sudo apt-get install php7.2-intl
+- sudo apt-get install php7.2-simplexml
+
+
+# Installer Composer globalement
+
+Installer si ce n'est pas encore fait 'Curl' correspondant à votre version de PHP. Vérifier votre version de PHP :
+- php -v
+ici notre version est php7.2 
+Ce n'est pas génant si votre version est différente, il faut chercher les installations correspondante exclusivement à votre version.
+
+Puis :
+- sudo apt-get install php7.2-curl
+
+**ATTENTION** : regarder les informations sur votre écran
+**SI** vous avez un message comme par exemple : 
+
+----
+php7.2-curl is already the newest version (7.2.13-1+0~20191218.50+debian9~1.gbp23c2da).
+The following package was automatically installed and is no longer required:
+  libtidy5
+Use 'apt autoremove' to remove it.
+
+----
+
+Ici le message vous indique que vous devez utiliser la commande **'sudo apt-get autoremove'** pour supprimer les packages php obsoletes.
+
+## Télécharger Composer. 
+
+Composer un est fichier script 'composer.phar' qui comprend un ensemble d'instruction qui seront utiles pour installer tous programmes (application web) pour Linux ou Windows.
+
+la commande est : 
+- sudo curl -sS https://getcomposer.org/installer | php
+
+Cela va prendre un peu de temps, tout dépendra de votre connexion internet.
+
+Une fois téléchargé, vous aurez un message de confirmation tel que :
+
+---
+Composer (version 1.9.2) successfully installed to: /root/composer.phar
+Use it: php composer.phar
+
+---
+Ce message vous indique que l'installation c'est bien passée. Pour utiliser 'composer' utiliser la commande 'php composer.phar'
+
+Déplacer et renommer le fichier télécharger 'composer.phar' vers :
+- mv composer.phar /usr/local/bin/composer
+
+
+**ATTENTION :** Nous venons de renommer notre fichier 'composer.phar', il vous suffira d'utiliser la commande 'composer'.
+Par exemple , pour connaitre la version de Composer :
+- composer -V
+
+Pour en savoir plus sur les différentes commandes, lancer la commande :
+- sudo composer
+
+
+# Installer cakephp
+
+Se positionner sur votre espace web (var/www/html) et créer le dossier correpondant à votre nom de domaine :
+- cd /var/www/html
+- sudo mkdir madapitt.com
+
+**LA CREATION DU DOSSIER N'EST PAS UNE OBLIGATION DANS CE CAS UNIQUEMENT.**
+
+
+Télécharger le fichier 'composer.json'
+
+- sudo wget (URL A REMPLACER) OU FICHIER A JOINDRE
+
+Ce fichier est comme une base de données il historise toutes les actions de composer sur notre serveur.
+
+
+Télécharger les fichiers du framework 'cakephp' :
+
+- composer self-update && composer create-project --prefer-dist cakephp/app:^3.8 madapitt.com/
+
+La commande **'composer self-update &&'**, va permettre la mise à jour du fichier 'composer.json', **'composer'** avec l'instruction **'create-project'** permet de créer notre dossier nom de domaine, **'--prefer-dist cakephp/app:^3.8'** indique le nom de la distribution que nous souhaitons installer et sa version.
+
+Cela va prendre un peu de temps, tout dépendra de votre connexion internet.
 
 
 
