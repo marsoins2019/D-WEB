@@ -114,6 +114,12 @@ Sur les erreurs de droits sur des dossiers nommer changer les droits en :
 - sudo chmod -R 777 logs/
 
 
+## Lancer le serveur
+
+Après votre installation cakephp, mets à votre disposition une commande pour lancer directement le site via une commande serveur.
+
+
+
 
 
 
