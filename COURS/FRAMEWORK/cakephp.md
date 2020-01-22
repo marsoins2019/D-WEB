@@ -73,17 +73,6 @@ Use it: php composer.phar
 ---
 Ce message vous indique que l'installation c'est bien passée. Pour utiliser 'composer' utiliser la commande 'php composer.phar'
 
-Déplacer et renommer le fichier télécharger 'composer.phar' vers :
-- mv composer.phar /usr/local/bin/composer
-
-
-**ATTENTION :** Nous venons de renommer notre fichier 'composer.phar', il vous suffira d'utiliser la commande 'composer'.
-Par exemple , pour connaitre la version de Composer :
-- composer -V
-
-Pour en savoir plus sur les différentes commandes, lancer la commande :
-- sudo composer
-
 
 # Installer cakephp
 
@@ -93,6 +82,25 @@ Se positionner sur votre espace web (var/www/html) et créer le dossier correpon
 
 **LA CREATION DU DOSSIER N'EST PAS UNE OBLIGATION DANS CE CAS UNIQUEMENT.**
 
+Télécharger les fichiers du framework 'cakephp' :
+
+- sudo php composer.phar require cakephp/migrations "@stable" madapitt.com/
+
+La commande **'composer'** avec l'instruction **'create-project'** permet de créer notre dossier nom de domaine, **'--prefer-dist cakephp/app:^3.8'** indique le nom de la distribution que nous souhaitons installer et sa version.
+
+Cela va prendre un peu de temps, tout dépendra de votre connexion internet.
+
+## Question lors de l'installation
+
+Created '/var/www/html/madapitt.com/tmp/cache/views/' directory
+Set Folder Permission ? Y
+
+Les droits d'écriture seront poser sur tout les dossiers de tmp/*
+
+
+## Les erreurs lors de l'installation
+
+### Fichier 'composer.json' manquant
 
 Télécharger le fichier 'composer.json'
 
@@ -100,14 +108,13 @@ Télécharger le fichier 'composer.json'
 
 Ce fichier est comme une base de données il historise toutes les actions de composer sur notre serveur.
 
+### Probleme de droit
 
-Télécharger les fichiers du framework 'cakephp' :
+Sur les erreurs de droits sur des dossiers nommer changer les droits en :
+- sudo chmod -R 777 logs/
 
-- composer self-update && composer create-project --prefer-dist cakephp/app:^3.8 madapitt.com/
 
-La commande **'composer self-update &&'**, va permettre la mise à jour du fichier 'composer.json', **'composer'** avec l'instruction **'create-project'** permet de créer notre dossier nom de domaine, **'--prefer-dist cakephp/app:^3.8'** indique le nom de la distribution que nous souhaitons installer et sa version.
 
-Cela va prendre un peu de temps, tout dépendra de votre connexion internet.
 
 
 
