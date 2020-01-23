@@ -86,6 +86,12 @@ Télécharger les fichiers du framework 'cakephp' :
 
 - sudo php composer.phar require cakephp/migrations "@stable" madapitt.com/
 
+La commande **'php composer.phar'** avec l'instrucion **'require cakephp/migrations'** permet le téléchargement de cakephp, **'@stable'**, une version stable de cakephp. 
+
+OU INSTALLER COMME CECI
+
+- sudo php composer.phar create-project --prefer-dist cakephp/app:^3.8 madapitt.com/
+
 La commande **'composer'** avec l'instruction **'create-project'** permet de créer notre dossier nom de domaine, **'--prefer-dist cakephp/app:^3.8'** indique le nom de la distribution que nous souhaitons installer et sa version.
 
 Cela va prendre un peu de temps, tout dépendra de votre connexion internet.
