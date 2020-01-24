@@ -122,7 +122,7 @@ Après votre installation cakephp, mets à votre disposition une commande pour l
 ### Fichier 'composer.json' manquant
 
 Ce fichier est comme une base de données il historise toutes les actions de composer sur notre serveur.
-Le plus simple pour régler ce problème est de télécharger directement sur github cakephp v3.8.8 (janvier 2020)
+Le plus simple pour régler ce problème est de télécharger directement sur github cakephp v3.8.8 (janvier 2020).
 
 
 **Comment faire**
@@ -130,6 +130,13 @@ Le plus simple pour régler ce problème est de télécharger directement sur gi
 - Télécharger cakephp : sudo wget https://github.com/cakephp/cakephp/releases/download/3.8.8/cakephp-3-8-8.zip
 - Dézipper le fichier 3.8.8.zip : sudo unzip -d cakephp-3.8.8.zip
 
+
+**ATTENTION**
+----------------
+A la décompresion du fichier cakephp-3.8.8.zip, il est possible que vous ayez un répertoire portant le même nom. Dans ce cas, et uniquement si cela c'est produit, se déplacer dans ce dossier et copier l'ensemble des fichiers et dossier et les coller dans votre dossier web de travail.
+
+- cd cakephp-3.8.8
+- sudo cp -r * ../madapitt.com/
 
 ### Probleme de droit
 
