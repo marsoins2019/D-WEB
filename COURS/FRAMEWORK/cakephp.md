@@ -138,6 +138,8 @@ A la décompresion du fichier cakephp-3.8.8.zip, il est possible que vous ayez u
 - cd cakephp-3.8.8
 - sudo cp -r * ../madapitt.com/
 
+POUR INFO : Commande linux pour copier (-R,-r, --recursive 	Pour copier récursivement les répertoires)
+
 ### Probleme de droit
 
 Sur les erreurs de droits sur des dossiers nommer changer les droits en :
