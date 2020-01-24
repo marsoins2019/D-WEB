@@ -143,3 +143,10 @@ Maintenant vous pouvez commencer à utiliser votre nouvelle base de données ave
 Dans MariaDB, sélectionner votre nouvelle base de données. 
 - USE mydb;
 
+
+
+# Pour en savoir plus
+Voici un lien sur les commandes linux les plus utilisées.
+- https://buzut.developpez.com/tutoriels/101-commandes-indispensables-sous-linux/
+
+
