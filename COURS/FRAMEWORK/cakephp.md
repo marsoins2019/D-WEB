@@ -31,8 +31,15 @@ Pour installer les packages cités :
 - sudo apt-get install php7.2-intl
 - sudo apt-get install php7.2-simplexml
 
+Relancer ensuite le serveur Apache2
+- sudo service apache2 restart
 
-# Installer Composer globalement
+**OU**
+
+- sudo /etc/init.d/apache2 restart
+
+
+# Installer Composer local
 
 Installer si ce n'est pas encore fait 'Curl' correspondant à votre version de PHP. Vérifier votre version de PHP :
 - php -v
@@ -104,31 +111,29 @@ Set Folder Permission ? Y
 Les droits d'écriture seront poser sur tout les dossiers de tmp/*
 
 
+## Lancer le serveur
+
+Après votre installation cakephp, mets à votre disposition une commande pour lancer directement le site via une commande serveur.
+- sudo cake/bin server
+
+
 ## Les erreurs lors de l'installation
 
 ### Fichier 'composer.json' manquant
 
-Télécharger le fichier 'composer.json'
-
-- sudo wget (URL A REMPLACER) OU FICHIER A JOINDRE
-
 Ce fichier est comme une base de données il historise toutes les actions de composer sur notre serveur.
+Le plus simple pour régler ce problème est de télécharger directement sur github cakephp v3.8.8 (janvier 2020)
+
+
+**Comment faire**
+- Se rendre sur votre dossier projet de votre serveur (cd /var/www/html/madapitt.com)
+- Télécharger cakephp : sudo wget https://github.com/cakephp/cakephp/releases/download/3.8.8/cakephp-3-8-8.zip
+- Dézipper le fichier 3.8.8.zip : sudo unzip -d cakephp-3.8.8.zip
+
 
 ### Probleme de droit
 
 Sur les erreurs de droits sur des dossiers nommer changer les droits en :
 - sudo chmod -R 777 logs/
-
-
-## Lancer le serveur
-
-Après votre installation cakephp, mets à votre disposition une commande pour lancer directement le site via une commande serveur.
-
-
-
-
-
-
-
 
 
