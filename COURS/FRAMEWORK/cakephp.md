@@ -25,6 +25,7 @@ Il fonctionne avec le serveur web Apache, nginx, LightHTTPD ou Microsoft IIS.
     L’extension PHP intl
     L’extension PHP simplexml
 
+## Configuration serveur apache2
 
 Pour installer les packages cités :
 - sudo apt-get install php7.2-mbstring
@@ -90,12 +91,6 @@ Se positionner sur votre espace web (var/www/html) et créer le dossier correpon
 **LA CREATION DU DOSSIER N'EST PAS UNE OBLIGATION DANS CE CAS UNIQUEMENT.**
 
 Télécharger les fichiers du framework 'cakephp' :
-
-- sudo php composer.phar require cakephp/migrations "@stable" madapitt.com/
-
-La commande **'php composer.phar'** avec l'instrucion **'require cakephp/migrations'** permet le téléchargement de cakephp, **'@stable'**, une version stable de cakephp. 
-
-OU INSTALLER COMME CECI
 
 - sudo php composer.phar create-project --prefer-dist cakephp/app:^3.8 madapitt.com/
 
