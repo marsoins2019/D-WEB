@@ -28,7 +28,6 @@ CREATE TABLE `t_proprietaire` (
   `nom` varchar(99) NOT NULL,
   `prenom` varchar(99) NOT NULL,
   `telephone` varchar(10) NOT NULL,
-  `email` varchar(255) NOT NULL,
   `date_add` datetime NOT NULL,
   `date_update` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -164,6 +163,37 @@ class Inscription
 
 ```
 
+- Editer le fichier includes/h_admin.php et ajouter en début de fichier ceci :
+
+```php
+<?php
+session_start();
+
+if(isset($_SESSION['email']) != "")
+{
+  $email = $_SESSION['email'];
+
+} else {
+  // redirection vers page connexion
+  header('Location: http://localhost/madapitt.com/', replace);
+}
+
+?>
+```
+
+- Editer le fichier 'admin.php' et remplacer ceci :
+
+```html
+<h2 class="font-weight-bold text-center dark-text text-uppercase mb-4">Admin</h2>
+```
+par ceci :
+
+```php
+<h2 class="font-weight-bold text-center dark-text text-uppercase mb-4">Admin <?php echo $email;  ?></h2>
+```
+
+
+
 ## Etape 4 - Ce que vous devrez faire
 
 - Include dans le fichier 'autoloader.php', 'access.php' et 'cl_inscription.php' 
@@ -190,9 +220,23 @@ class Inscription
 - Dans le fichier 'cl_inscription.php', mettre en place les différentes fonctions :
 1. add_inscription
 - mettre en place la sécurité côté serveur
+- test et cryptage du mot de passe
+- insertion en base de données dans LES tables concernées
+
+### Vous servir des functions suivantes :
+------------------------------------------
+
+- $this->connectDB->insert_id , pour récupérer l'ID généré en insertion
+- date('Y-m-d H:i:s'), format des dates,
+- url de redirection : http://localhost/madapitt.com/ ,
+- 
+
 
 2. add_connextion
 - mettre en place la sécurité côté serveur
+- mettre en place les sessions
+
+
 
 
 
